@@ -49,3 +49,28 @@
   background-color: #e6e6e6;
   transition: all 0.3s;
 }
+
+@media screen and (max-width: 768px) {
+  .banner{
+    height: 50vh;
+  }
+  .banner_title{
+    font-size: 2.5rem;
+  }
+  .banner_description{
+    font-size: 0.85rem;
+  }
+
+}
+@media screen and (max-width: 450px) {
+  .banner{
+    /* height: 45vh; */
+  }
+  .banner_title{
+    font-size: 2.5rem;
+  }
+  .banner_description{
+    font-size: 0.85rem;
+  }
+
+}
